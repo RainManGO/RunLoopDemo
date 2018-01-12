@@ -15,6 +15,7 @@
 		18B386CE1ECD36AB00DBAFFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B386CC1ECD36AB00DBAFFF /* LaunchScreen.storyboard */; };
 		18B386D91ECD36AC00DBAFFF /* RunLoopDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B386D81ECD36AC00DBAFFF /* RunLoopDemoTests.m */; };
 		18B386E41ECD36AC00DBAFFF /* RunLoopDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B386E31ECD36AC00DBAFFF /* RunLoopDemoUITests.m */; };
+		18B9E9D21ED66925008ABE4C /* ZYThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B9E9D11ED66925008ABE4C /* ZYThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		18B386DF1ECD36AC00DBAFFF /* RunLoopDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunLoopDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B386E31ECD36AC00DBAFFF /* RunLoopDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopDemoUITests.m; sourceTree = "<group>"; };
 		18B386E51ECD36AC00DBAFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B9E9D01ED66925008ABE4C /* ZYThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYThread.h; sourceTree = "<group>"; };
+		18B9E9D11ED66925008ABE4C /* ZYThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				18B386C21ECD36A900DBAFFF /* AppDelegate.m */,
 				18B386C41ECD36A900DBAFFF /* ViewController.h */,
 				18B386C51ECD36AA00DBAFFF /* ViewController.m */,
+				18B9E9D01ED66925008ABE4C /* ZYThread.h */,
+				18B9E9D11ED66925008ABE4C /* ZYThread.m */,
 				18B386C71ECD36AB00DBAFFF /* Main.storyboard */,
 				18B386CA1ECD36AB00DBAFFF /* Assets.xcassets */,
 				18B386CC1ECD36AB00DBAFFF /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B9E9D21ED66925008ABE4C /* ZYThread.m in Sources */,
 				18B386C61ECD36AA00DBAFFF /* ViewController.m in Sources */,
 				18B386C31ECD36A900DBAFFF /* AppDelegate.m in Sources */,
 				18B386C01ECD36A900DBAFFF /* main.m in Sources */,
@@ -516,6 +522,7 @@
 				18B386EA1ECD36AC00DBAFFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18B386EB1ECD36AC00DBAFFF /* Build configuration list for PBXNativeTarget "RunLoopDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +531,7 @@
 				18B386ED1ECD36AC00DBAFFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18B386EE1ECD36AC00DBAFFF /* Build configuration list for PBXNativeTarget "RunLoopDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +540,7 @@
 				18B386F01ECD36AC00DBAFFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,4 +10,8 @@
 
 @implementation ZYThread
 
+-(void)dealloc{
+    NSLog(@"线程走了");
+}
+
 @end
